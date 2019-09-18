@@ -2,16 +2,16 @@
 " VIM mode
 "=================================================
 if &compatible
-  set nocompatible
+    set nocompatible
 endif
 
 "=================================================
 " GUI
 "=================================================
 if has("gui_running")
-  set guioptions-=m
-  set guioptions-=T
-  set guifont=Input\ 10,Source\ Code\ Pro\ 10,DejaVu\ Sans\ Mono\ 10
+    set guioptions-=m
+    set guioptions-=T
+    set guifont=Input\ 10,Source\ Code\ Pro\ 10,DejaVu\ Sans\ Mono\ 10
 endif
 
 "=================================================
@@ -38,10 +38,10 @@ colorscheme default
 set background=dark
 
 if filereadable(expand("~/.vimrc_background"))
-  if isdirectory(expand("~/.vim/plugged/base16-vim"))
-    let base16colorspace=256
-    source ~/.vimrc_background
-  endif
+    if isdirectory(expand("~/.vim/plugged/base16-vim"))
+        let base16colorspace=256
+        source ~/.vimrc_background
+    endif
 endif
 
 "=================================================
