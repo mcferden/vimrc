@@ -11,7 +11,7 @@ endif
 if has("gui_running")
     set guioptions-=m
     set guioptions-=T
-    set guifont=Input\ 10,Source\ Code\ Pro\ 10,DejaVu\ Sans\ Mono\ 10
+    set guifont=Fira\ Code\ 10,Input\ 10,Source\ Code\ Pro\ 10,DejaVu\ Sans\ Mono\ 10
 endif
 
 "=================================================
