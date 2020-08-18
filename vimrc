@@ -106,13 +106,6 @@ set laststatus=2
 set ruler
 set showmode
 set showcmd
-set statusline=
-set statusline+=[%n]\ %<%f%(\ %M%)%(\ [%R%H%W]%)
-set statusline+=%=
-set statusline+=%(%{&filetype!=''?&filetype:'text'}\ \ %)
-set statusline+=%(%{&fileencoding!=''?&fileencoding:&encoding}%(\ %{&bomb?'BOM':''}%)\ \ %)
-set statusline+=%(%{&fileformat}\ \ %)
-set statusline+=%(%3p%%%10(%l/%L%):%4(%c%)%)
 
 "=================================================
 " Wild menu
