@@ -29,8 +29,8 @@ syntax on
 colorscheme default
 set background=dark
 
-if filereadable(expand("~/.vimrc_background"))
-    if isdirectory(expand("~/.vim/plugged/base16-vim"))
+if isdirectory(expand("~/.vim/plugged/base16-vim"))
+    if filereadable(expand("~/.vimrc_background"))
         let base16colorspace=256
         source ~/.vimrc_background
     endif
