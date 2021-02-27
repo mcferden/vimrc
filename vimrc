@@ -36,25 +36,24 @@ endif
 "=================================================
 " Text
 "=================================================
-set backspace=start,indent,eol
+set backspace=indent,eol,start
 set clipboard=unnamed,unnamedplus
 set encoding=utf-8
 set keymap=russian-jcukenwin
 set iminsert=0
 set imsearch=0
-set nowrap
-set timeoutlen=250
+set timeoutlen=50
 
 "=================================================
 " Indentation
 "=================================================
 set autoindent
-set expandtab
-set shiftwidth=4
 set smartindent
+set expandtab
 set smarttab
-set softtabstop=4
+set shiftwidth=4
 set tabstop=4
+set softtabstop=4
 
 "=================================================
 " Buffers
@@ -65,6 +64,7 @@ set hidden
 "=================================================
 " Windows
 "=================================================
+set nowrap
 set scrolloff=5
 set sidescrolloff=15
 set splitbelow
@@ -85,11 +85,12 @@ set matchtime=1
 "=================================================
 " Status line
 "=================================================
-"let g:airline_powerline_fonts = 1
 set laststatus=2
 set ruler
 set showmode
 set showcmd
+
+"let g:airline_powerline_fonts = 1
 
 "=================================================
 " Wild menu
