@@ -16,7 +16,7 @@ Plug 'scrooloose/nerdtree'
 call plug#end()
 
 "=================================================
-" Syntax highlighting
+" Syntax
 "=================================================
 filetype plugin indent on
 syntax on
@@ -34,7 +34,7 @@ else
 endif
 
 "=================================================
-" Text
+" Text & IO
 "=================================================
 set backspace=indent,eol,start
 set clipboard=unnamed,unnamedplus
