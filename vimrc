@@ -24,14 +24,13 @@ syntax on
 "=================================================
 " Colorsheme
 "=================================================
-colorscheme default
 set background=dark
+set termguicolors
 
 if isdirectory(expand("~/.vim/plugged/base16-vim"))
-    if filereadable(expand("~/.vimrc_background"))
-        let base16colorspace=256
-        source ~/.vimrc_background
-    endif
+    colorscheme base16-material
+else
+    colorscheme default
 endif
 
 "=================================================
