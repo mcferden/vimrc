@@ -42,7 +42,7 @@ set encoding=utf-8
 set keymap=russian-jcukenwin
 set iminsert=0
 set imsearch=0
-set timeoutlen=50
+set timeoutlen=250
 
 "=================================================
 " Indentation
