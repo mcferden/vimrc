@@ -28,7 +28,7 @@ set background=dark
 set termguicolors
 
 if isdirectory(expand("~/.vim/plugged/base16-vim"))
-    colorscheme base16-material
+    colorscheme base16-material-darker
 else
     colorscheme default
 endif
